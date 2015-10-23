@@ -19,7 +19,7 @@ namespace Microsoft.Extensions.FileSystemGlobbing.Util
                     return StringComparer.Ordinal;
                 case StringComparison.OrdinalIgnoreCase:
                     return StringComparer.OrdinalIgnoreCase;
-#if !DOTNET5_4
+#if !DNXCORE50
                 case StringComparison.InvariantCulture:
                     return StringComparer.InvariantCulture;
                 case StringComparison.InvariantCultureIgnoreCase:
