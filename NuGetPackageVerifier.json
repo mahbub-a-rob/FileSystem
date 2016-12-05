@@ -10,16 +10,5 @@
             "Microsoft.Extensions.FileProviders.Physical": { },
             "Microsoft.Extensions.FileSystemGlobbing": { }
         }
-    },
-    "adx-nonshipping": {
-        "rules": [],
-        "packages": {
-            "Microsoft.Extensions.FileProviders.Sources": { }
-        }
-    },
-    "Default": { // Rules to run for packages not listed in any other set.
-        "rules": [
-            "DefaultCompositeRule"
-        ]
     }
 }
