@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Testing.xunit;
 using Microsoft.Extensions.FileProviders.Internal;
 using Microsoft.Extensions.FileProviders.Physical;
 using Microsoft.Extensions.FileSystemGlobbing.Tests.TestUtility;
-using Xunit;
 using Microsoft.Extensions.Primitives;
+using Xunit;
 
 namespace Microsoft.Extensions.FileProviders
 {
